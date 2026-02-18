@@ -48,3 +48,11 @@ CI/CD チェックに加え、LLM（Claude）がコードの可読性・設計�
 | 関心の分離・設計 | 20 | LLM |
 | エラーハンドリング | 15 | LLM |
 | ドキュメントの質 | 15 | LLM |
+
+### GitHub Secrets の設定
+
+| Secret 名 | 値 |
+|---|---|
+| `GIT_EVAL_URL` | 管理者から通知された Webhook URL |
+| `GIT_EVAL_SECRET` | 管理者から通知された Secret キー |
+| `ANTHROPIC_API_KEY` | Claude API キー（LLM 評価に必要） |
